@@ -1,6 +1,11 @@
 # gmx-cookie-consent
 Cookie Consent JS Library
 
+# How to use
+
+Load this in your header:
+
+
 ````
 <!-- COOKIE CONSENT -->
 <link rel="stylesheet" type="text/css" href="cookie-consent.css" />
