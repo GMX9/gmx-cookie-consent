@@ -1,5 +1,5 @@
 # gmx-cookie-consent
-Cookie Consent JS Library
+A free Cookie Consent JS Library built according to the RGPD Data Policy.
 
 # How to use
 
