@@ -1,17 +1,27 @@
-<!-- COOKIE CONSENT -->
-<link rel="stylesheet" type="text/css" href="cookie-consent.css" />
-<script src="cookie-consent.js"></script>
-<script>
-// Fill the variables with your info    
-let cookie_consent = new CookieConsent(message,accept_button,decline_button,privacy_btn,privacy_href);
+<html>
+  <head>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <!-- COOKIE CONSENT CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/GMX9/gmx-cookie-consent@master/cookie-consent.css" />
+    <!-- COOKIE CONSENT CSS -->
+ 
+  </head>
+  <body>
+  </body>
+  <!-- COOKIE CONSENT -->
+  <script src="https://cdn.jsdelivr.net/gh/GMX9/gmx-cookie-consent@master/cookie-consent.js"></script>
+  <script>
+    // Fill the variables with your info    
+    let cookie_consent = new CookieConsent("Your privacy message","Accept","Decline","Privacy Policy","#");
 
-if(cookie_consent.getStatus() == true){
-   // Consent Given, load all tracking
-   
-}else{
-   // Consent Denied
-        
-}    
-</script>
+    if(cookie_consent.getStatus() == true){
+       // Consent Given, load all tracking
 
-<!-- COOKIE CONSENT -->
+    }else{
+       // Consent Denied
+
+    }    
+    </script>
+
+    <!-- COOKIE CONSENT -->
+</html> 
