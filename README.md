@@ -16,10 +16,10 @@ let cookie_consent = new CookieConsent("Your privacy message","Accept","Decline"
 
 
 if(cookie_consent.getStatus() == true){
-   // Consent Given, load all tracking
+   // Consent Given, load all tracking below
    
 }else{
-   // Consent Denied
+   // Consent Denied, you can't track the user
         
 }    
 </script>
