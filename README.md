@@ -12,7 +12,8 @@ Load this in your header:
 <script src="cookie-consent.js"></script>
 <script>
 // Fill the variables with your info    
-let cookie_consent = new CookieConsent(message,accept_button,decline_button,privacy_btn,privacy_href);
+let cookie_consent = new CookieConsent("Your privacy message","Accept","Decline","Privacy Policy Text","#link-to-policy");
+
 
 if(cookie_consent.getStatus() == true){
    // Consent Given, load all tracking
