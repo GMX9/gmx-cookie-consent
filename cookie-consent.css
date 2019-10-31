@@ -3,7 +3,7 @@
 .cookie-consent{ background:black; width:100%; height:auto; display:none; position:fixed; bottom:0; left:0; right:0; z-index:99; padding-bottom:20px; padding-top:20px; }
 .container-consent{ width: 90% !important; margin: 0 auto;  padding: 0px !important; max-width: initial; }
 .cookie-consent-text{ float:left; width:70%; padding:10px; color:white; }
-.cookie-consent-button{ float:right; width:30%; height: 101px; position:relative; }
+.cookie-consent-button{ float:right; width:28%; height: 101px; position:relative; }
 .align-consent-btn{ width: 100%; padding-left: 10px; padding-right: 10px; height: auto; right: 0; position: absolute; top: calc(50% - 16px); }
 .consent-btn{ background:white; color:black; padding:5px; padding-left:24px;  padding-right:24px; float:right; margin-right:10px; }
 
