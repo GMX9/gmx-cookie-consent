@@ -1,4 +1,4 @@
-# GDPRCOOKIE JS LIBRARY [![Awesome]
+# GDPRCOOKIE JS LIBRARY [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 # VERSION 1.0.1
 A free Cookie Consent JS Library built according to the RGPD Data Policy.
 
